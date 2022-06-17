@@ -1,0 +1,48 @@
+ .content {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 10px;
+}
+
+#hide-image {
+    display: none;
+}
+
+#hide-cover {
+   display: none;
+}
+
+#p1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+form {
+    padding: 20px;
+    border-style: groove;
+}
+ 
+textarea {
+    margin-bottom: 10px;
+ }
+
+ h2 {
+    text-align: center;
+ }
+
+ /* #slideUp {
+    margin-right: 7px;
+ }
+
+ #slideDown {
+    margin-left: 14px;
+ }
+
+ #fadeIn {
+    margin-left: 22px;
+ }
+
+ #fadeOut {
+    margin-left: 20px;
+ } */
