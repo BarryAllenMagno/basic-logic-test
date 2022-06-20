@@ -16,7 +16,7 @@ $(document).ready(function(){
         var inputValue = $("#inputText").val();
         if (inputValue == "")
         {
-            alert("Please write something in the textarea!");
+            alert("Please write something in the text area!");
         }
         else if(inputValue == "Something" || inputValue == "SOMETHING" || inputValue == "something")
         {

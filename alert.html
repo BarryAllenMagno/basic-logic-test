@@ -1,40 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Logic Test</title>
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.css"/>
-    <link rel="stylesheet" href="style.css">
-    <script src="jquery.min.js"></script>
-    <script src="logicTest.js"></script>
-</head>
-<body class="p-3 container">
-    <div class="content">
-        <form action="#">
-            <h2>Basic Logic Test</h2>
-            <div class="alert alert-primary mt-3" id="div1">
-                <p id="p1">Click the "Slide Up" or "Fade Out" button and I will disappear! But "Slide Down" or "Fade In" button will reveal me. If you want to change me and see more just type something in the textbox and click "Change Text" button.</p>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Logic Test</title>
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.css"/>
+        <link rel="stylesheet" href="style.css">
+        <script src="jquery.min.js"></script>
+        <script src="logicTest.js"></script>
+    </head>
+    <body>
+        <div class="card text-center m-5">
+            <div class="card-header">
+                <h3>Basic Logic Test</h3>
             </div>
-            <div class="d-flex justify-content-between">
-                <button id="slideUp" class="btn btn-danger">Slide Up</button>
-                <button id="slideDown" class="btn btn-primary">Slide Down</button>
-                <button id="fadeOut" class="btn btn-warning">Fade Out</button>
-                <button id="fadeIn" class="btn btn-secondary">Fade In</button>
+            <div class="card-body">
+                <div class="alert alert-primary mt-3" id="div1">
+                    <p id="p1">Click the "Slide Up" or "Fade Out" button and I will disappear! But "Slide Down" or "Fade In" button will reveal me. If you want to change me and see more just type something in the textbox and click "Change Text" button.</p>
+                </div>
+                <div class="d-flex justify-content-evenly">
+                    <button id="slideUp" class="btn btn-danger">Slide Up</button>
+                    <button id="slideDown" class="btn btn-primary">Slide Down</button>
+                    <button id="fadeOut" class="btn btn-warning">Fade Out</button>
+                    <button id="fadeIn" class="btn btn-secondary">Fade In</button>
+                </div>
+                <br>
+                <div>
+                    <textarea class="form-control" id="inputText" cols="55" rows="4" placeholder="Please write something..."></textarea>
+                </div>
+                <button id="change" class="btn btn-success ps-5 pe-5">Change Text</button>
+                <div id="hide-cover" class="text-center mt-2">
+                    <img src="question-mark.jpg" width="400" height="550">
+                </div>
+                <div id="hide-image" class="text-center mt-2">
+                    <img src="kalbo.jpg" alt="ate mo shane" width="400" height="550">
+                </div>
             </div>
-            <br>
-            <div>
-                <textarea class="form-control" id="inputText" cols="55" rows="4"></textarea>
-            </div>
-            <button id="change" class="btn btn-primary form-control">Change Text</button>
-            <div id="hide-cover" class="text-center mt-2">
-                <img src="question-mark.jpg" width="400" height="550">
-            </div>
-            <div id="hide-image" class="text-center mt-2">
-                <img src="kalbo.jpg" alt="ate mo shane" width="400" height="550">
-            </div>
-        </form>
-    </div>
-</body>
+        </div>
+    </body>
 </html>
