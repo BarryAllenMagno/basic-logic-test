@@ -21,7 +21,7 @@ $(document).ready(function(){
     
 
     
-    $("#change").on("click", function(){
+    $("#change-text").on("click", function(){
         var inputValue = $("#inputText").val();
         if (inputValue == "")
         {
