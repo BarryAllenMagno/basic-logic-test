@@ -2,15 +2,24 @@ $(document).ready(function(){
     $("#slideUp").on("click", function(){
       $("#p1").slideUp(500);
     });
+    
     $("#slideDown").on("click", function(){
       $("#p1").slideDown(500);
     });
+    
     $("#fadeOut").on("click", function(){
         $("#p1").fadeOut(500);
     });
+    
     $("#fadeIn").on("click", function(){
         $("#p1").fadeIn(500);
     });
+
+    $('#restart').on("click", function() {
+        location.reload();
+    });
+    
+
     
     $("#change").on("click", function(){
         var inputValue = $("#inputText").val();
